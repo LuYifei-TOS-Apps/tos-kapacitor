@@ -13,3 +13,5 @@ Kapacitor 使用 TICKscript 处理时序数据、检测异常并触发告警。�
 容器内的 `/var/lib/kapacitor` 对应 TOS 应用数据目录，包含数据库、任务和回放文件。备份前在 TOS 停止应用，再复制 Docker 管理器中显示的宿主挂载目录，并保留原权限。
 
 [安装包与 SHA-256 校验文件](https://github.com/LuYifei-TOS-Apps/tos-kapacitor/releases) · [上游项目](https://github.com/influxdata/kapacitor)
+
+[隐私政策 / Privacy policy](PRIVACY.md)
