@@ -1,7 +1,7 @@
 {
   "id": "kapacitor",
-  "recipe": "kapacitor-v1",
-  "version": "1.8.9.1",
+  "recipe": "kapacitor-v2",
+  "version": "1.8.9.2",
   "publisher": "Lu Yifei",
   "help": "https://github.com/LuYifei-TOS-Apps/tos-kapacitor#readme",
   "official": "https://github.com/influxdata/kapacitor",
@@ -13,21 +13,21 @@
       "auth": "InfluxData",
       "descript": "Process time series, run TICKscript tasks and generate alerts on your NAS.",
       "important": "Restrict port 9092 to trusted clients. Configure your InfluxDB connection for tasks that query or write to InfluxDB.",
-      "release_note": "Initial TOS release for Kapacitor 1.8.9."
+      "release_note": "Run services and initial setup as non-root users."
     },
     "zh-cn": {
       "name": "Kapacitor",
       "auth": "InfluxData",
       "descript": "在 NAS 上处理时序数据，运行 TICKscript 任务并生成告警。",
       "important": "请只对可信客户端开放 9092 端口。任务需要读写 InfluxDB 时，请先配置 InfluxDB 连接。",
-      "release_note": "首次发布 Kapacitor 1.8.9 的 TOS 安装包。"
+      "release_note": "使用非 root 用户运行服务及初始化。"
     },
     "zh-hk": {
       "name": "Kapacitor",
       "auth": "InfluxData",
       "descript": "在 NAS 上處理時間序列資料、執行 TICKscript 工作並產生警報。",
       "important": "請只向受信任的用戶端開放連接埠 9092。工作需要讀寫 InfluxDB 時，請先設定 InfluxDB 連線。",
-      "release_note": "首次發佈 Kapacitor 1.8.9 的 TOS 安裝套件。"
+      "release_note": "使用非 root 使用者執行服務與初始化。"
     }
   }
 }
